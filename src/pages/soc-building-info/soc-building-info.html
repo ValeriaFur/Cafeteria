@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar color="orange">
+    <ion-title>
+      Information
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+  	<img src="assets/img/rahvatoit_logo.png">
+  </ion-card>
+
+	<h3 style="background-color:#ffb380"> Opening hours </h3>
+		<p><b> Monday - Friday: </b> 8.30-18.30 </p>
+		<p><b> Saturday: </b> 8.30-15.30 </p>
+		<p><b> Sunday: </b> closed </p>
+
+	<h3 style="background-color:#ffb380"> Address </h3>
+	<p><b> Akadeemia tee 3 </b></p>
+
+	<ion-list no-lines>
+  		<button ion-item (click)="nextPage();">
+        <ion-icon name="map" item-left></ion-icon>
+   			 See the map
+  		</button>
+	</ion-list>
+
+</ion-content>

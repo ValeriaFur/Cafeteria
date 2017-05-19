@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-navbar color="orange" [hideBackButton]="true">
+    <ion-title>
+      WELCOME
+    </ion-title>
+
+    <ion-buttons>
+      <button (click)="nextPageAbout();" ion-button icon-only>
+        <ion-icon name="information-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-buttons end>
+    <button ion-button (click)="estPage();">
+      <ion-badge color="danger" item-right>EST</ion-badge>
+    </button>
+  </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card>
+
+    <ion-card-content>
+      <button ion-item (click) = "nextPageCampaigns();">
+        <ion-icon name="star" item-left></ion-icon>
+        <h2 style="color:#10B508"><b> Campaigns </b> </h2>
+      </button>
+    </ion-card-content>
+
+  </ion-card>
+
+	 <ion-card>
+	  <ion-card-header>
+	     Locations
+	  </ion-card-header>
+
+		  <ion-list>
+
+		    <button ion-item (click) = "nextPage();" >
+		      <ion-icon name="restaurant" item-left></ion-icon>
+		      SOC building
+		    </button>
+
+		    <button ion-item>
+		      <ion-icon name="restaurant" item-left></ion-icon>
+		      Libary building
+		    </button>
+
+		    <button ion-item>
+		      <ion-icon name="restaurant" item-left></ion-icon>
+		      Main building
+		    </button>
+
+        <button ion-item>
+		      <ion-icon name="restaurant" item-left></ion-icon>
+		      U04 building
+		    </button>
+
+		    <button ion-item>
+		      <ion-icon name="restaurant" item-left></ion-icon>
+		      U06 building
+		    </button>
+
+		    <button ion-item>
+		      <ion-icon name="restaurant" item-left></ion-icon>
+		      Natural Science building
+		    </button>
+
+		    <button ion-item>
+		      <ion-icon name="restaurant" item-left></ion-icon>
+		      ICT building
+		    </button>
+
+		    <button ion-item>
+		      <ion-icon name="restaurant" item-left></ion-icon>
+		      Sports building
+		    </button>
+
+		  </ion-list>
+	</ion-card>
+
+</ion-content>
